@@ -1,0 +1,69 @@
+#game_page{
+    background-image: url("https://i.gifer.com/5EDx.gif");
+}
+#intro_page{
+    background-image: url("https://i.gifer.com/Ir4.gif");
+}
+canvas{
+    background-color: white;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    /*https://www.w3schools.com/cssref/css3_pr_transform.asp*/
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    outline: black 5px solid;
+}
+h1{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 200%;
+    text-align:center;
+    margin-top: 10px;
+}
+
+#img{
+    position: absolute;
+    top: 53%;
+    left: 48%;
+    display: none;
+}
+
+#start_button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px, 40px;
+    background-color: yellow;
+}
+
+#scary{
+    display: none;
+    top: -90px;
+    /* top: 100px; */
+    left: 0px;
+    /* width: 1920px; */
+    position: absolute;
+}
