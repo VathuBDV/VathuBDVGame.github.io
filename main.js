@@ -48,7 +48,7 @@ function animate(){
 animate();
 
 function restart(){
-    document.location='Start.html';
+    document.location='index.html';
 }
 
 window.addEventListener('keydown', function(key){
